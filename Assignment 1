@@ -1,0 +1,73 @@
+# C++ Assignment
+
+## What is a variable in C/C++?
+
+A variable in C/C++ is a named storage location in memory that stores a value. The value of a variable can change during program execution.
+
+Example:
+int age = 20;
+
+## Why do we use variables in programs?
+
+Variables are used in programs to store and manage data. They allow a program to save values, use them in calculations, and change them whenever needed during execution. Using variables makes programs flexible, reusable, and easier to understand.
+Example:
+int age = 20;
+age = 21;  // The value of the variable can be changed
+
+## What is the difference between a variable name and its value?
+
+A variable name is the name or identifier given to a variable, while its value is the actual data stored in that variable.
+Example:
+
+int age = 20;
+Variable name: age
+Value: 20
+
+## Which of the following is valid variable name?
+2num
+total_marks
+for
+marks
+
+❌ 2num → Invalid (a variable name cannot start with a number).
+✅ total_marks → Valid (uses letters and an underscore, and starts with a letter).
+❌ for → Invalid (for is a reserved keyword in C/C++).
+✅ marks → Valid (starts with a letter and is not a keyword).
+
+## Why is Age different from age?
+
+Age and age are different because C/C++ is a case-sensitive language. This means uppercase and lowercase letters are treated as different characters. Therefore, Age and age are considered two different variable names.
+
+## Can a variable name contain spaces? Why?
+
+No, a variable name cannot contain spaces because the compiler treats a space as a separator between different words or tokens. If you need multiple words, use an underscore (_) or write them together.
+Example:
+❌ total marks (Invalid)
+✅ total_marks (Valid)
+✅ totalMarks (Valid)
+
+## Can a variable name start with an underscore(_)?
+
+Yes, a variable names can start with an underscore (_), but in generally it is recommended to avoid it because some underscore-prefixed names are reserved by the compiler or standard library.
+
+## What happen if two variable have the same name in the same scope?
+If two variables have the same name in the same scope, the program will produce a compile- time error because a variable cannot be declared more than once in the same scope.
+Example:
+int age = 20;
+int age = 25;   // Error: 'age' is already declared
+
+## 
+Write three meaningful variable names for storing student information.
+
+Three meaningful variable names for storing student information are:
+studentName
+studentAge
+studentMarks
+
+## Which naming convention is better and why: studentMarks or sm ?
+
+studentMarks is better than sm because it is clear, meaningful, and easy to understand. Anyone reading the code can immediately know what the variable stores, while sm is short and unclear.
+
+## What is a data type?
+
+A data type defines the type of value a variable can store, such as an integer, decimal, character, or boolean.
